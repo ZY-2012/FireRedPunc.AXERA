@@ -30,6 +30,8 @@ Measured in `scripts/board_eval.py` with 50 runs after warmup, text
 C++ runtime (including tokenizer and post-processing): median **25.7 ms**,
 p95 **25.8 ms**; output 272/272 exact vs Python.
 
+等效 RTF（按每个 10 s VAD 语音段折算）：Python **0.0023**，C++ **0.0026**。
+
 The spread across repeated CLI runs is 23.2–23.5 ms median. The Punc stage is
 negligible compared with MT (50–300 ms) and ZipVoice first-frame (~1.0–1.5 s).
 
