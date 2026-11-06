@@ -1,0 +1,9 @@
+.work/
+models/
+cpp/build/
+cpp/bin/
+cpp/toolchains/
+__pycache__/
+*.pyc
+*.pyo
+*.log

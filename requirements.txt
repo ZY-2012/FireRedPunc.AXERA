@@ -1,0 +1,11 @@
+# Host conversion (x86)
+torch>=2.6
+transformers>=4.51,<6
+onnx>=1.17
+onnxruntime>=1.20
+onnxsim>=0.4
+numpy>=1.26
+
+# Board runtime (system Python 3.10 on AX650)
+# axengine (AXERA-TECH/PyAXEngine) is installed separately
+# numpy, transformers, onnxruntime for board_eval.py

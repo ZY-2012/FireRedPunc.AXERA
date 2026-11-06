@@ -1,0 +1,43 @@
+{
+  "onnx": ".work/onnx/punc.fp32.sim.onnx",
+  "rows": 272,
+  "tokens": 4523,
+  "token_agree_vs_torch": 1.0,
+  "text_exact_vs_torch": 1.0,
+  "skel_mismatch_or_skipped": 62,
+  "punctuation": {
+    "all": {
+      "p": 0.981,
+      "r": 0.996,
+      "f": 0.9784,
+      "tp": 273,
+      "fp": 4,
+      "fn": 2
+    },
+    "excl_final": {
+      "p": 1.0,
+      "r": 0.9929,
+      "f": 0.9937,
+      "tp": 67,
+      "fp": 0,
+      "fn": 2
+    },
+    "sent_all": {
+      "p": 0.981,
+      "r": 0.996,
+      "f": 0.9784,
+      "tp": 218,
+      "fp": 4,
+      "fn": 2
+    },
+    "sent_excl_final": {
+      "p": 1.0,
+      "r": 0.9929,
+      "f": 0.9937,
+      "tp": 12,
+      "fp": 0,
+      "fn": 2
+    }
+  },
+  "diffs": []
+}

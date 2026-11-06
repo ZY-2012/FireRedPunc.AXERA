@@ -1,0 +1,10 @@
+{
+  "macs": "22",
+  "size_bytes": 158837626,
+  "errors": [
+    "[Warning]Reshape(/bert/Flatten(TargetPlatform.UNSPECIFIED) - inputs:['/bert/Cast_output_0', '/bert/Flatten_shape'], outputs:['/bert/Flatten_output_0']) set dynamic batch failed, set shape to static shape"
+  ],
+  "tail": "  | axnn.yamain.command.build:compile_ptq_model:1320 - subgraph [0], group: 0, type: GraphType.NPU\n2026-10-28 12:11:18.520 | INFO     | axnn.yamain.compiler.npu_backend_compiler:compile:206 - compile npu subgraph [0]\ntiling op...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 314/314 0:00:22\nnew_ddr_tensor = []\nbuild op serially...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 284/284 0:00:40\nbuild op...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 359/359 0:00:00\nadd ddr swap...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8040/8040 0:00:16\ncalc input dependencies...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:04\ncalc output dependencies...   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:09\nassign eu heuristic   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:02\nassign eu onepass   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:00\nassign eu greedy   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:00\n2026-10-28 12:13:02.043 | INFO     | axnn.yasched.test_onepass:results2model_gen:3239 - clear job deps\n2026-10-28 12:13:02.043 | INFO     | axnn.yasched.test_onepass:results2model_gen:3240 - max_cycle = 20,541,764\nbuild jobs   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14529/14529 0:00:14\n2026-10-28 12:13:20.030 | INFO     | axnn.yamain.compiler.npu_backend_compiler:compile:310 - assemble model [0] [subgraph_npu_0] b1\n2026-10-28 12:13:46.172 | INFO     | axnn.yamain.command.build:compile_ptq_model:1367 - fuse 1 subgraph(s)\n",
+  "axmodel_bytes": 158837626,
+  "copied_to": "models/punc.axmodel"
+}
