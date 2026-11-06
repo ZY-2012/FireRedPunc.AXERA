@@ -7,7 +7,7 @@ FireRedPunc 中英标点恢复模型在 AXERA 平台上的部署工程（当前 
 - [x] 模型转换（ONNX 导出 → 对分验证 → Pulsar2 U16 量化）
 
 量化模型和预编译 C++ 可执行文件发布在 HuggingFace：
-[AXERA-TECH/FireRedPunc.AXERA](https://huggingface.co/HY-2012/FireRedPunc.AXERA)。
+[HY-2012/FireRedPunc.AXERA](https://huggingface.co/HY-2012/FireRedPunc.AXERA)。
 本仓库仅含代码。
 
 ## 模型
