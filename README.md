@@ -28,8 +28,8 @@ FireRedPunc 中英标点恢复模型在 AXERA 平台上的部署工程（当前 
 | AXMODEL vs fp32 ONNX | 272 行 / 4523 token，token 100%，text 100% |
 | 标点 F1（排除句末） | 0.9937 |
 | Python 延迟 | median 23.2–23.5 ms，p95 23.5–23.9 ms |
-| C++ 延迟 | median 25.7 ms，p95 25.8 ms |
-| 等效 RTF（按 10 s VAD 段） | Python 0.0023 / C++ 0.0026 |
+| C++ 延迟 | median 21.1 ms，p95 21.2 ms |
+| 等效 RTF（按 10 s VAD 段） | Python 0.0023 / C++ 0.0021 |
 
 详细报告见 [`reports/`](reports/)。
 Punc 是文本模型，延迟按句基本固定；RTF 以每个 10 s 语音段折算。
