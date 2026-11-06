@@ -50,7 +50,7 @@ FireRedPunc.AXERA/
 模型和 C++ 二进制从 HuggingFace 下载：
 
 ```bash
-hf download AXERA-TECH/FireRedPunc.AXERA --include "models/*" "bin/*" --local-dir .
+hf download AXERA-TECH/FireRedPunc.AXERA models bin --local-dir .
 ```
 
 ### Python
